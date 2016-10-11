@@ -1,4 +1,19 @@
 table {
-    width:50%;
-    height:50%;
+    width:500px;
+    height:500px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.hoverable:hover {
+    background-color: black;
+}
+
+.marked {
+    background-color: black;
 }
